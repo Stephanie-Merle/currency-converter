@@ -1,4 +1,5 @@
 import React from "react";
+import SelectBtn from "./selectBtn";
 
 const Currency = props => {
   return (
@@ -10,7 +11,9 @@ const Currency = props => {
         onFocus={props.init}
         onChange={e => props.action(e.target.value)}
       />
-      <p>{props.cur}</p>
+      <p>
+        <SelectBtn setcur={e => props.convert(e)} rates={props.rates} />
+      </p>
     </form>
   );
 };
