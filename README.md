@@ -1,3 +1,18 @@
+# Currency Converter
+
+Small currency converter project with the possibility to connect to API to get the current rates.
+(Need to add a key with a free registered account from https://fixer.io/)
+
+## Author
+
+- [Stephanie Merle](https://github.com/Stephanie-Merle)
+
+## Preview
+
+<div style="display:flex; margin:auto">
+<img src="./src/assets/converter.png" width="100%" height="100%" title="currency-converter">
+</div>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -42,10 +42,18 @@ form > p {
   align-self: flex-start;
 }
 textarea,
-input {
+input,
+select {
   outline: none;
 }
 input:focus {
   background-color: rgb(207, 170, 202);
   border: 2px solid rgb(190, 134, 183);
+}
+select {
+  background-color: none;
+  height: 60px;
+  width: 120px;
+  font-size: 1rem;
+  border: none;
 }

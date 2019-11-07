@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const SelectBtn = props => {
   const n = Object.keys(props.rates);
